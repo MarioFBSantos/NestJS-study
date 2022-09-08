@@ -17,6 +17,7 @@ export class UsersService {
     }
 
     findAll() {
+        console.log('achou');
         return this.userModel.find();
     }
 
